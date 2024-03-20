@@ -21,6 +21,7 @@ output "hello_world" {
 }
 
 
+
 resource "time_sleep" "wait_360_seconds" {
   create_duration = "360s"
 }
